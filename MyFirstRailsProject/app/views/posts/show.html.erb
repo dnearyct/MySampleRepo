@@ -1,0 +1,11 @@
+<%#
+# To change this license header, choose License Headers in Project Properties.
+# To change this template file, choose Tools | Templates
+# and open the template in the editor.
+%>
+
+<h1>This is the "show view page"</h1>
+<h2><%= @post.title %></h2>
+<p><%= @post.body %></p>
+<hr>
+<%= link_to "Edit", edit_post_path(@post), :class => 'btn btn-default' %>
